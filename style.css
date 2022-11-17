@@ -1,0 +1,49 @@
+body {
+    background-color: rgb(197, 201, 77);
+}
+
+.jumbotron {
+    background-color: rgb(227, 165, 57);
+}
+.jumbotron h1, h3 {
+    font-size: 50px;
+    font-family: Segoe Print, sans-serif;
+    color: rgb(130, 38, 38);
+}
+
+.jumbotron p {
+    color: rgb(159, 49, 49);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+form {
+    background-color: rgb(189, 146, 26);
+    font-size: 25px;
+    position: relative;
+    text-align: center;
+    padding: 10px;
+}
+
+input[type="range"] {
+    writing-mode: bt-lr;
+    -webkit-appearance: slider-vertical;
+  }
+
+#outputRange {
+    position: relative;
+    right: 40px;
+    top: -2em;
+  }
+
+#price {
+    position: relative;
+    right: 40px;
+    top: -2em;
+  }
+
+.table {
+    margin: auto;
+    width: 400px;
+    font-size: 40px;
+    background-color: rgb(145, 187, 16);
+}  
