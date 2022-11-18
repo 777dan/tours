@@ -3,7 +3,7 @@ include "tours.php";
 echo '<table class="table table-striped">';
 echo '<tr><th>Name</th><th>Country</th><th>Stars</th><th>Price</th><th>Transport</th></tr>';
 for ($i = 0; $i < count($tours); $i++) {
-    if ($tours[$i]["country"] == $_GET['country'] && $tours[$i]["price"] == $_GET['price'] && $tours[$i]["stars"] == $_GET['stars'] && $tours[$i]["transport"] == $_GET['transport']) {
+    if ($tours[$i]["country"] == $_GET['country'] && $tours[$i]["price"] <= $_GET['price'] && $tours[$i]["stars"] == $_GET['stars'] && $tours[$i]["transport"] == $_GET['transport']) {
             $tour = $tours[$i];
             echo '<tr>';
             foreach ($tour as $key) {
